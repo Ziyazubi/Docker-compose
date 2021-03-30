@@ -1,0 +1,19 @@
+services:
+        database1:
+                image: mysqlimage
+                ports: 
+                        - "4040:4040"
+                stdin_open: true
+                tty: true          
+        database2:
+                image: mysqlimage
+                ports: 
+                        - "4050:4050"
+                stdin_open: true
+                tty: true          
+        database3:
+                image: mysqlimage
+                ports: 
+                        - "4060:4060"
+                stdin_open: true
+                tty: true
